@@ -1,0 +1,54 @@
+.register-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #c3cfe2, #a1c4fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-heading {
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.register-input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Fix for browser autofill shrinking */
+input:-webkit-autofill {
+  box-sizing: border-box;
+  padding-right: 16px !important;
+}
+
+.register-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
